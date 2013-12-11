@@ -107,6 +107,25 @@
             </plugin>
         </plugins>
     </build>
+    
+    <scm>
+        <developerConnection>scm:git:git@github.com:Adobe-Consulting-Services/com.adobe.acs.bundles.netty.git</developerConnection>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>${releaseRepository-Id}</id>
+            <name>${releaseRepository-Name}</name>
+            <url>${releaseRepository-URL}</url>
+        </repository>
+        <snapshotRepository>
+            <id>${snapshotRepository-Id}</id>
+            <name>${snapshotRepository-Name}</name>
+            <url>${snapshotRepository-URL}</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+        
     <profiles>
         <profile>
             <id>autoInstallPackage</id>
