@@ -138,7 +138,28 @@
         <developerConnection>scm:git:git@github.com:Adobe-Consulting-Services/com.adobe.acs.bundles.netty.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
-
+  
+	<repositories>
+		<repository>
+			<id>adobe-central</id>
+			<name>Day Central (repo.adobe.com)</name>
+			<url>http://repo.adobe.com/nexus/content/groups/public</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>adobe-central-plugin</id>
+			<name>Day Central (repo.adobe.com)</name>
+			<url>http://repo.adobe.com/nexus/content/groups/public</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>never</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
     <distributionManagement>
         <repository>
             <id>${releaseRepository-Id}</id>
