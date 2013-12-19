@@ -139,27 +139,23 @@
       <tag>HEAD</tag>
   </scm>
   
-	<repositories>
-		<repository>
-			<id>adobe-central</id>
-			<name>Day Central (repo.adobe.com)</name>
-			<url>http://repo.adobe.com/nexus/content/groups/public</url>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>adobe-central-plugin</id>
-			<name>Day Central (repo.adobe.com)</name>
-			<url>http://repo.adobe.com/nexus/content/groups/public</url>
-			<releases>
-				<enabled>true</enabled>
-				<updatePolicy>never</updatePolicy>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
+    <repositories>
+        <repository>
+            <id>adobe-public-releases</id>
+            <name>Adobe Public Repository</name>
+            <url>http://repo.adobe.com/nexus/content/groups/public/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>adobe-public-releases</id>
+            <name>Adobe Public Repository</name>
+            <url>http://repo.adobe.com/nexus/content/groups/public/</url>
+            <layout>default</layout>
+        </pluginRepository>
+    </pluginRepositories>
+  
     <distributionManagement>
         <repository>
             <id>${releaseRepository-Id}</id>
