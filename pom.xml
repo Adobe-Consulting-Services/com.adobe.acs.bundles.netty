@@ -101,7 +101,7 @@
                 <version>0.0.20</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <group>day_internal/consulting</group>
+                    <group>adobe/consulting</group>
                     <embeddeds>
                         <embedded>
                             <groupId>io.netty</groupId>
