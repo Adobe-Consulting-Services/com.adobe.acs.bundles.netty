@@ -6,7 +6,7 @@
     <!-- ====================================================================== -->
     <groupId>com.adobe.acs.bundles</groupId>
     <artifactId>com.adobe.acs.bundles.netty</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>content-package</packaging>
     <name>Netty Package</name>
     <description>Maven Multimodule project for Netty.</description>
@@ -136,7 +136,7 @@
     
     <scm>
         <developerConnection>scm:git:git@github.com:Adobe-Consulting-Services/com.adobe.acs.bundles.netty.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>com.adobe.acs.bundles.netty-1.0.2</tag>
   </scm>
   
     <repositories>
